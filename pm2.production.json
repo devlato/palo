@@ -1,0 +1,21 @@
+{
+  "apps": [{
+    "name": "Application",
+    "exec_interpreter": "node",
+    "script": "./runtime/interpreter",
+    "args": ["./server/app.js", "--prod"],
+    "watch": false,
+    "log_date_format": "YYYY/MM/DD HH:mm Z",
+    "node_args": ["--harmony"],
+    "error_file": "runtime/logs/stderr.log",
+    "out_file": "runtime/logs/stdout.log",
+    "instances": 1,
+    "exec_mode": "fork",
+    "max_memory_restart": "512M",
+    "autorestart": true,
+    "merge_logs": true,
+    "env": {
+      "NODE_ENV": "production"
+    }
+  }]
+}

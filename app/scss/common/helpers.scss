@@ -1,0 +1,7 @@
+@import 'common/settings';
+@import 'common/mixins';
+
+
+.view-capitalized {
+  text-transform: capitalize;
+}

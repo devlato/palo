@@ -1,0 +1,25 @@
+@import 'common/settings';
+@import 'common/mixins';
+
+body {
+  font-size: 12px;
+  font-family: $font-family;
+  font-weight: normal;
+  font-smoothing: antialiased;
+  margin: 0;
+  background: #6194be; }
+
+*, body, body * {
+  margin: 0;
+  padding: 0;
+  line-height: 1.0em;
+  font-size: 1.0em;
+  color: #c7def2;
+  box-sizing: border-box;
+  border: 0;
+  text-decoration: none;
+
+  &:focus {
+    outline: none;
+  }
+}

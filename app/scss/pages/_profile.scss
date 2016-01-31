@@ -1,0 +1,20 @@
+@import 'common/settings';
+@import 'common/mixins';
+
+
+.app-list-page {
+  width: 100%;
+  padding: 20px; }
+
+  .page-controls {
+    display: block;
+    width: 100%;
+    clear: both;
+    padding: 4px 10px 4px 20px; }
+
+    .search-box-container {
+      width: $search-box-width;
+      float: left; }
+
+    .action-buttons-container {
+      float: right; }

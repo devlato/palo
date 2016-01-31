@@ -1,0 +1,57 @@
+@import 'common/settings';
+@import 'common/mixins';
+
+
+.app-container-wrapper {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+  .app-content {
+    width: $screen-width;
+    left: 50%;
+    margin-left: -($screen-width / 2);
+    position: relative;
+    font-size: 1em;
+    clear: both;
+
+    .page-header {
+      width: 100%;
+      height: $page-header-height;
+      text-align: center;
+      clear: both;
+    }
+
+    .page {
+      width: 100%;
+      clear: both;
+
+      .page-sidebar {
+        float: left;
+        width: $sidebar-width;
+      }
+
+      .page-content {
+        float: right;
+        width: $page-width;
+
+        .page-content-blank {
+          margin: $page-content-margin;
+          display: block;
+          border-radius: $global-radius;
+          width: 100%;
+          background: $page-content-color;
+          min-height: 844px;
+          box-shadow: 0 10px 30px #456987;
+        }
+      }
+    }
+  }
+
+  .footer {
+    padding-top: 28px;
+    display: block;
+    width: 100%;
+    clear: both;
+  }
+}

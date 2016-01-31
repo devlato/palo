@@ -1,0 +1,39 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+
+$font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+
+$font-x-small: 10px;
+$font-small: 12px;
+$font-medium: 16px;
+$font-large: 21px;
+$font-x-large: 28px;
+
+$color-black: #000;
+$color-white: #fff;
+$color-dodger-blue: #2196F3;
+$color-salem: #0F9D58;
+$color-punch: #db4437;
+
+
+/**
+ *
+ */
+$global-radius: 4px;
+
+$screen-width: 1000px;
+$sidebar-width: 120px;
+$page-width: $screen-width - $sidebar-width;
+
+$sidebar-width: 110px;
+$sidebar-item-width: 110px;
+$page-header-height: $sidebar-width;
+$page-content-margin: 4px 0 0;
+
+$sidebar-icon-width: 48px;
+$sidebar-icon-height: 48px;
+
+$page-content-color: #f3f3f3;
+$svg-icon-contour-color: #f3f3f3;
+
+$search-box-width: 278px;
