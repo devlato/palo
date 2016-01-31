@@ -6,6 +6,39 @@ ECMAScript 6/7 via Babel + Express 4 + React + Webpack + FlightPlan + SASS + Red
 To run in dev mode, type ```npm run dev``` or ```pm2 start pm2.local.json``` to run in watch mode.
 To build project, type ```npm run build```.
 
+## Installation
+
+1. Global dependencies: 
+```
+npm i -g \
+    babel@6.3.26 \
+    babel-cli@6.3.17 \
+    gulp@3.9.0 \
+    bower@1.7.1 \
+    expect@1.13.4 \
+    flightplan@0.6.8 \
+    karma@0.13.15 \
+    karma-jsdom-launcher@1.0.1 \
+    karma-mocha@0.2.1 \
+    karma-mocha-reporter@1.1.3 \
+    karma-sourcemap-loader@0.3.6 \
+    karma-webpack@1.7.0 \
+    kexec@2.0.2 \
+    mocha@2.3.4 \
+    nock@3.6.0 \
+    node-sass@3.4.2 \
+    pm2@0.15.10 \
+    rimraf@2.4.4 \
+    react-addons-test-utils@0.14.3 \
+    redux-mock-store@0.0.3 \
+    webpack-dev-server@1.14.0
+```
+
+2. Dependencies
+```
+npm i
+```
+
 ## Features
 
 1. ES6 + ES2015 via Babel + ESlint
